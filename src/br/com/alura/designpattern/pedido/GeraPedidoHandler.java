@@ -10,7 +10,7 @@ public class GeraPedidoHandler {
 
     //injeção de dependências: PedidoRepository, EmailService...
     // construtor com as injeções  (TUDO USADO NA LISTA DE ACOES)
-    // design Command
+    // design Command/ Observer
 
     private List<AcaoAposGerarPedido> acoes;
 
