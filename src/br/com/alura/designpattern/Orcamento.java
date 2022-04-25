@@ -1,5 +1,6 @@
 package br.com.alura.designpattern;
 
+import br.com.alura.designpattern.situacao.Aprovado;
 import br.com.alura.designpattern.situacao.EmAnalise;
 import br.com.alura.designpattern.situacao.SituacaoOrcamento;
 
@@ -24,15 +25,15 @@ public class Orcamento {
 
     public void aprovar() {
         this.situacao.aprovar(this);
-    }
+    } //state
 
     public void reprovar() {
         this.situacao.reprovar(this);
-    }
+    } // state
 
     public void finalizar() {
         this.situacao.finalizar(this);
-    }
+    } // state
 
     public void setSituacao(SituacaoOrcamento situacao) {
         this.situacao = situacao;

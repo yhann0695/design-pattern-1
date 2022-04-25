@@ -2,15 +2,13 @@ package br.com.alura.designpattern;
 
 import br.com.alura.designpattern.pedido.GeraPedido;
 import br.com.alura.designpattern.pedido.GeraPedidoHandler;
-import br.com.alura.designpattern.pedido.Pedido;
 import br.com.alura.designpattern.pedido.acao.EnviarEmailPedido;
 import br.com.alura.designpattern.pedido.acao.SalvarPedidoNoBancoDeDados;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 import java.util.Arrays;
 
-public class TestePedidos {
+public class TestePedidosCommandAndObserver {
 
     public static void main(String[] args) {
         String cliente = "Yhann";
